@@ -6,7 +6,7 @@
 dbutils.widgets.removeAll()
 dbutils.widgets.dropdown("reset_all_data", "True", ["True", "False"])
 dbutils.widgets.text("db_prefix", "churn_mlops", "Database Prefix")
-dbutils.widgets.text("user_name", "anastasia_prokaieva", "User Name") # Place here your user name from set up or keep with this one 
+dbutils.widgets.text("user_name", "odl_user_814792@databrickslabs.com", "User Name") # Place here your user name from set up or keep with this one 
 dbutils.widgets.text("table_name", "telco_churn_ft", "Your Delta Table Name")
 
 # COMMAND ----------
